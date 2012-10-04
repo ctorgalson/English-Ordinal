@@ -34,7 +34,7 @@
  *
  * @see http://blog.stevenlevithan.com/archives/date-time-format
  *
- * @version 1.1
+ * @version 1.2
  */
 String.prototype.englishOrdinal = function(separator) {
   "use strict";
