@@ -37,5 +37,6 @@
  * @version 1.1
  */
 String.prototype.englishOrdinal = function(separator) {
+  var d = parseInt(this);
   return this + (separator ? separator : '') + ['th', 'st', 'nd', 'rd'][d % 10 > 3 ? 0 : (d % 100 - d % 10 != 10) * d % 10];
 }; /* String.prototype.englishOrdinal */
